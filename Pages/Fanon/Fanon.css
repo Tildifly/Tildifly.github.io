@@ -89,3 +89,65 @@ body {
     background-color: rgb(153,0,0);
     color: #fff;
 }
+
+
+/*------------CSS for small screen----------*/
+
+
+@media only screen and (max-width: 600px){
+
+#Header {
+    height: 30vh;
+}
+.header-text{
+    margin-top: 9%;
+    font-size: 20px; 
+     text-align: center;
+}
+
+.header-text p{
+    margin-top: 2%;
+    font-size: 15px;
+    color: rgb(153,0,0);
+}
+
+
+.story-box{
+    
+    border: 2px solid black;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    padding: 20px;
+    line-height: 18px;
+}
+
+.title{
+    font-size: 15px;
+    color: rgb(153,0,0);
+    margin-bottom: 4px;
+    margin-top: 20px;
+}
+
+.author{
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.description{
+    font-size: 12px;
+}
+
+.link{
+    
+    padding: 4px;
+    border: 2px solid rgb(153,0,0);
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.story-box a{
+    font-size: 10px;
+}
+
+}
